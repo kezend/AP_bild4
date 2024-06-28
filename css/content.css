@@ -305,7 +305,7 @@ body{
   top: -4%;
   width: 103%;
   height: 104%;
-  background-image: url('./images/leftNup.svg');
+  background-image: url('../images/leftNup.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0%;
@@ -324,7 +324,7 @@ body{
   bottom: -4%;
   width: 103%;
   height: 104%;
-  background-image: url('./images/rightNDown.svg');
+  background-image: url('../images/rightNDown.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100%;
@@ -397,7 +397,7 @@ body{
 }
 
 .storeHeaderGif {
-  background-image: url('images/gifBack.gif');
+  background-image: url('../images/gifBack.gif');
   background-size: 100%;
 }
 
@@ -441,7 +441,7 @@ body{
 }
 
 .storeHeader {
-  background-image: url("./images/gif.png");
+  background-image: url("../images/gif.png");
   background-size: cover;
 }
 
