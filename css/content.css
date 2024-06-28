@@ -397,7 +397,7 @@ body{
 }
 
 .storeHeaderGif {
-  background-image: url('./images/gifBack.gif');
+  background-image: url('images/gifBack.gif');
   background-size: 100%;
 }
 
@@ -551,7 +551,7 @@ body{
 .underheadText {
   padding: 1vw;
   height: 7vw;
-  background-image: url("./images/RectangleShop.svg");
+  background-image: url('./images/RectangleShop.svg');
   background-size: cover;
   box-sizing: border-box;
   background-position: 50%;
