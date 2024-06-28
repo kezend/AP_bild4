@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+        <form class="contact">
+            <h1>FORM</h1>
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Name">
+            
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Name">
+            
+            <label for="message">Your question or order</label>
+            <textarea id="message" name="message" placeholder="Description"></textarea>
+            
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+
+    <style>
+        .form {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px #151515;
+    width: 30vw;
+    text-align: center;
+}
+
+.contact-form h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact label{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.contact input[type="text"],
+.contact textarea{
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 0.05vw solid #ccc;
+    border-radius: 0.4vw;
+    font-size: 1rem;
+}
+
+.contact textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact button[type="submit"]{
+    background: white;
+    border: 1px solid #151515;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button[type="submit"]:hover{
+    background: #f3f3f3;
+}
+    </style>
+</body>
+</html>
