@@ -180,7 +180,7 @@
       let showreal = document.querySelector('.threedWindow');
       Buttons.forEach((button, i) => {
         button.addEventListener('click', () => {
-          showreal.style.backgroundImage = `url(../images/floor${i + 1}.svg)`;
+          showreal.style.backgroundImage = `url('./images/floor${i + 1}.svg')`;
         });
       });
     });
